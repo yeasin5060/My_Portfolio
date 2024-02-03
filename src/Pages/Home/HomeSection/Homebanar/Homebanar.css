@@ -1,0 +1,129 @@
+#homebanar{
+    padding: 200px 0 100px 0;
+    position: relative;
+}
+#homebanar::after,
+#homebanar::before{
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:#7c66e3;
+    z-index: 1;
+    filter: blur(225px);
+}
+#homebanar::after{
+    top: 50px;
+    left: 100px;
+}
+#homebanar::before{
+    bottom: 50px;
+    right: 100px;
+}
+.homebanar_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 100px;
+}
+.homebanar_contant_box{
+    text-align: left;
+    margin: 10px 0;
+}
+.homehaner_heading{
+    width: 500px;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 150%;
+    color: #000;
+    margin-bottom: 10px;
+}
+.homebanar_pera{
+    width: 550px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #000;
+}
+.homebanar_small_image_box_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.homebanar_small_image_box{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border: 1px solid #7c66e3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.homebanar_small_image_box img{
+    padding: 6px;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+.homebanar_small_image_box img:hover{
+    transform: translateY(-6px);
+}
+.homebanar_image_box_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 60px;
+}
+.homebanar_big_image_box{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.homebanar_big_image_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.homebanar_big_image_box img:hover{
+    transform: translateY(-10px);
+}
+.homebanar_small_image_box_two_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.homebanar_small_image_box_two{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border: 1px solid #7c66e3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.homebanar_small_image_box_two img{
+    padding: 6px;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+.homebanar_small_image_box_two img:hover{
+    transform: translateY(-6px);
+}
