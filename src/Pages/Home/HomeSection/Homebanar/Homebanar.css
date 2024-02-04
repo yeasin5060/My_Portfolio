@@ -1,5 +1,5 @@
 #homebanar{
-    padding: 200px 0 100px 0;
+    padding: 100px 0 100px 0;
     position: relative;
 }
 #homebanar::after,
@@ -126,4 +126,52 @@
 }
 .homebanar_small_image_box_two img:hover{
     transform: translateY(-6px);
+}
+.homebanar_wrapper_icon_box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 20px;
+}
+.homebanar_wrapper_icon{
+    font-size: 38px;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.homebanar_wrapper_icon:hover{
+    color: rgb(10, 168, 168);
+}
+.homebanar_all_language_wrapper{
+    margin-top: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 60px;
+}
+.homebanar_all_language_wrapper_stack_name{
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    position: relative;
+}
+.homebanar_all_language_wrapper_stack_name::after{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #706767;
+    right: -30px;
+    top: 0;
+    z-index: 888;
+}
+    
+.homebanar_all_language_wrapper_flex{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 20px;
 }
