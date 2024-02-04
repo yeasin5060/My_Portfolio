@@ -1,5 +1,5 @@
 #homebanar{
-    padding: 100px 0 100px 0;
+    padding: 100px 0 50px 0;
     position: relative;
 }
 #homebanar::after,
@@ -166,7 +166,7 @@
     background: #706767;
     right: -30px;
     top: 0;
-    z-index: 888;
+    z-index: 1;
 }
     
 .homebanar_all_language_wrapper_flex{

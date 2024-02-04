@@ -24,7 +24,7 @@ const Homebanar = () => {
             <div className='homebanar_wrapper'>
               <div className='homebanar_contant_box'>
                 <Head text="Full Stack Developer" style="homehaner_heading"/>
-                <Pera text="Hi,I'm Yeasin Munshi. A passionate Full Stack Developer based in Bangladesh." style="homebanar_pera"/>
+                <Pera text="Hi,I'm Yeasin Munshi. A passionate Full Stack Developer based in Dhaka , Bangladesh." style="homebanar_pera"/>
                 <div className='homebanar_wrapper_icon_box'>
                   <Link to = "https://www.linkedin.com/feed/" target='blank'><CiLinkedin className='homebanar_wrapper_icon' /></Link>
                   <Link to = "https://github.com/" target='blank'><FiGithub className='homebanar_wrapper_icon' /></Link>
