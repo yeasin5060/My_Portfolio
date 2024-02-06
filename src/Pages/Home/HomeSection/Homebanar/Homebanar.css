@@ -55,8 +55,8 @@
     row-gap: 20px;
 }
 .homebanar_small_image_box{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     overflow: hidden;
     border: 1px solid #7c66e3;
     border-radius: 10px;
@@ -106,8 +106,8 @@
     column-gap: 20px;
 }
 .homebanar_small_image_box_two{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     overflow: hidden;
     border: 1px solid #7c66e3;
     border-radius: 10px;

@@ -10,6 +10,9 @@ import nodejsicon from '../../../../images/nodejsicon.png'
 import sassicon from '../../../../images/sassicon.png'
 import reacticon from '../../../../images/reacticon.png'
 import tailwindicon from '../../../../images/tailwindicon.png'
+import reduxicon from '../../../../images/reduxlogoimg.svg'
+import muilicon from '../../../../images/muilogo.png'
+import firebaseicon from '../../../../images/firebaseimg.png'
 import image from '../../../../images/3dimage.jpg'
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
@@ -48,6 +51,12 @@ const Homebanar = () => {
                   <img src={cssicon} alt="nto found" />
                 </div>
                 <div className='homebanar_small_image_box'>
+                  <img src={reduxicon} alt="nto found" />
+                </div>
+                <div className='homebanar_small_image_box'>
+                  <img src={muilicon} alt="nto found" />
+                </div>
+                <div className='homebanar_small_image_box'>
                   <img src={reacticon} alt="nto found" />
                 </div>
                 <div className='homebanar_small_image_box'>
@@ -64,6 +73,9 @@ const Homebanar = () => {
                 </div>
                 <div className='homebanar_small_image_box_two'>
                   <img src={mongodbicon} alt="nto found" />
+                </div> 
+                <div className='homebanar_small_image_box_two'>
+                  <img src={firebaseicon} alt="nto found" />
                 </div>    
               </div>
             </div>

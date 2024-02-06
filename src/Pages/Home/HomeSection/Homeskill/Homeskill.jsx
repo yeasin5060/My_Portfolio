@@ -15,7 +15,8 @@ let arraylag = [
         lagfive: "talwind",
         lagsix: "Material UI",
         lagseven:"React",
-        lageight:"Redux"
+        lageight:"Redux",
+        lagnine : "Axios"
     },
     {
         id : 2,
@@ -57,6 +58,7 @@ const Homeskill = () => {
                                     <Nanohead text={item.lagsix} style="homeskill_wrapper_nanohead"/>
                                     <Nanohead text={item.lagseven} style="homeskill_wrapper_nanohead"/>
                                     <Nanohead text={item.lageight} style="homeskill_wrapper_nanohead"/>
+                                    <Nanohead text={item.lagnine} style="homeskill_wrapper_nanohead"/>
                                 </div>
 
                             </div>
