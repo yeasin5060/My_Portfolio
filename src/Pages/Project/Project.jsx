@@ -1,8 +1,11 @@
 import React from 'react'
+import Projectbanar from './Projectsection/Projectbanar/Projectbanar'
 
 const Project = () => {
   return (
-    <div>Project</div>
+   <>
+      <Projectbanar/>
+   </>
   )
 }
 
