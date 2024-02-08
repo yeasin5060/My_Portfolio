@@ -16,7 +16,7 @@ let arrayallpro = [
         img :ecommerce,
         pera : "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
         btn : "Live Link",
-        link :"https://animated-ganache-34607f.netlify.app"
+        link :"https://animated-ganache-34607f.netlify.app",
     },
     {
         id : 2,
@@ -65,7 +65,7 @@ const Projectbanar = () => {
                                     <Pera text={item.pera} style="project_banar_wrapper_project_pera"/>
                                 </div>
                                 <div className='project_banar_wrapper_project_live_link_box'>
-                                    <Link className='project_banar_wrapper_project_live_link' to = {item.link}>{item.btn}</Link>
+                                    <Link target='_blank' className='project_banar_wrapper_project_live_link' to = {item.link}>{item.btn}</Link>
                                 </div>
                             </div>
                         ))
