@@ -15,7 +15,7 @@ const Navbar = () => {
                             <img src={profilelogo} alt="not found" />
                         </div>
                         <div className='navbar_profile_name_box'>
-                            <Nanohead text="Yeasinwebdev" style="navbar_profile_name"/>
+                            <Nanohead text="Yeasin.dev" style="navbar_profile_name"/>
                         </div>
                     </div>
                     <div className='navbar_link_box'>
