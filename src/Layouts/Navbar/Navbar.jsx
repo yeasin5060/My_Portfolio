@@ -5,6 +5,25 @@ import profilelogo from '../../images/profilelogo.png'
 import Nanohead from '../../Utilities/Nanohead/Nanohead'
 
 const Navbar = () => {
+
+    let hendleHome = ()=>{
+        window.scrollTo(0,0)
+      }
+    let hendleAbout = ()=>{
+      window.scrollTo(690 , 690)
+    }
+    let hendleProject = ()=>{
+        window.scrollTo(1990 , 1990)
+    }
+    let hendleSkill = ()=>{
+        window.scrollTo(1290 , 1290)
+    }
+    let hendleWork = ()=>{
+        window.scrollTo(1990 , 1990)
+    }
+    let handleContact = ()=>{
+        window.scrollTo(4590 , 4590)
+    }
   return (
     <>
         <section id='navbar'>
@@ -21,22 +40,22 @@ const Navbar = () => {
                     <div className='navbar_link_box'>
                         <ul className='navbar_link_flex'>
                             <li>
-                                <NavLink to = "/">Home</NavLink>
+                                <NavLink to = "/" onClick={hendleHome}>Home</NavLink>
                             </li>
                             <li>
-                                <NavLink >about</NavLink>
+                                <NavLink onClick={hendleAbout} >about</NavLink>
                             </li>
                             <li>
-                                <NavLink >project</NavLink>
+                                <NavLink onClick={hendleProject} >project</NavLink>
                             </li>
                             <li>
-                                <NavLink >skills</NavLink>
+                                <NavLink onClick={hendleSkill}>skills</NavLink>
                             </li>
                             <li>
-                                <NavLink >Work Experience</NavLink>
+                                <NavLink onClick={hendleWork}>Work Experience</NavLink>
                             </li>
                             <div className='contact_me_btn_box'>
-                                <NavLink className="contact_me" >Contact Me</NavLink>
+                                <NavLink className="contact_me" onClick={handleContact} >Contact Me</NavLink>
                             </div>
                         </ul>
                     </div>

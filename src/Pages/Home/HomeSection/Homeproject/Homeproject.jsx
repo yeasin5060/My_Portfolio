@@ -24,7 +24,7 @@ let arraypro = [
         img : reatestate,
         pera : "Real estate is considered real property that includes land and anything permanently attached to it or built on it, whether natural or man-made. There are five main categories of real estate which include residential, commercial, industrial, raw land, and special use.",
         btn : "Live Link",
-        link : "https://lovely-longma-c6c3a3.netlify.app"
+        link : "https://luxury-palmier-f94b69.netlify.app"
     },
     {
         id : 3,
@@ -32,7 +32,7 @@ let arraypro = [
         img : management,
         pera : "Management is how businesses organize and direct workflow, operations, and employees to meet company goals. The primary goal of management is to create an environment that lets employees work efficiently and productively",
         btn : "Live Link",
-        link : "https://lovely-longma-c6c3a3.netlify.app"
+        link : "https://shiny-axolotl-d7ef92.netlify.app"
     },
     {
         id : 4,
@@ -40,7 +40,7 @@ let arraypro = [
         img :chat,
         pera : "An online chatting application is an application that allows you to have a conversation outside of your browser. It allows you to chat in real time, it can also have a file sharing option, as well as a video chat option.",
         btn : "Live Link",
-        link : "https://lovely-longma-c6c3a3.netlify.app"
+        link : "https://brilliant-meerkat-cb4f6a.netlify.app"
     },
 ]
 
@@ -53,7 +53,7 @@ const Homeproject = () => {
                 <div className='home_project_wrapper_flex'>
                     {
                         arraypro.map((item,index)=>(
-                            <div className='home_project_wrapper_contant_image_box'>
+                            <div key={index} className='home_project_wrapper_contant_image_box'>
                                 <div className='home_project_wrapper_contant_box'>
                                     <Minihead text={item.projectname} style="home_project_wrapper_contant_heading"/>
                                 </div>
