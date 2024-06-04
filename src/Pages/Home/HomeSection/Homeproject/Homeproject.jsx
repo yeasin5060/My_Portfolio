@@ -15,28 +15,28 @@ let arraypro = [
         projectname : "Ecommerce",
         img :ecommerce,
         pera : "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
-        btn : "Details"
+        btn : "Live Link"
     },
     {
         id : 2,
         projectname : "Real Estate",
         img : reatestate,
         pera : "Real estate is considered real property that includes land and anything permanently attached to it or built on it, whether natural or man-made. There are five main categories of real estate which include residential, commercial, industrial, raw land, and special use.",
-        btn : "Details"
+        btn : "Live Link"
     },
     {
         id : 3,
         projectname : "Management",
         img : management,
         pera : "Management is how businesses organize and direct workflow, operations, and employees to meet company goals. The primary goal of management is to create an environment that lets employees work efficiently and productively",
-        btn : "Details"
+        btn : "Live Link"
     },
     {
         id : 4,
         projectname : "Chat Application",
         img :chat,
         pera : "An online chatting application is an application that allows you to have a conversation outside of your browser. It allows you to chat in real time, it can also have a file sharing option, as well as a video chat option.",
-        btn : "Details"
+        btn : "Live Link"
     },
 ]
 

@@ -65,9 +65,6 @@ const Homeskill = () => {
                         ))
                     }
                 </div>
-                <div className='homeskill_wrapper_details_box'>
-                    <Link className='homeskill_wrapper_details' to="skills">Details</Link>
-                </div>
             </div>
         </div>
    </section>

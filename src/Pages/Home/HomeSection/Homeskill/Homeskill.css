@@ -63,17 +63,3 @@
     margin: 50px 0 20px 0;
     text-align: center;
 }
-.homeskill_wrapper_details{
-    font-size: 22px;
-    font-weight: 600;
-    color: #fff;
-    padding: 14px 28px;
-    cursor: pointer;
-    background:rgb(49, 3, 92);
-    border-radius: 10px;
-    text-transform: capitalize;
-    transition: all linear 0.3s;
-}
-.homeskill_wrapper_details:hover{
-    background: rgb(85, 4, 161);
-}

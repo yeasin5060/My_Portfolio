@@ -24,19 +24,19 @@ const Navbar = () => {
                                 <NavLink to = "/">Home</NavLink>
                             </li>
                             <li>
-                                <NavLink to = "about">about</NavLink>
+                                <NavLink >about</NavLink>
                             </li>
                             <li>
-                                <NavLink to = "project">project</NavLink>
+                                <NavLink >project</NavLink>
                             </li>
                             <li>
-                                <NavLink to = "skills">skills</NavLink>
+                                <NavLink >skills</NavLink>
                             </li>
                             <li>
-                                <NavLink to = "experience">Work Experience</NavLink>
+                                <NavLink >Work Experience</NavLink>
                             </li>
                             <div className='contact_me_btn_box'>
-                                <NavLink className="contact_me" to = "contact">Contact Me</NavLink>
+                                <NavLink className="contact_me" >Contact Me</NavLink>
                             </div>
                         </ul>
                     </div>

@@ -46,9 +46,6 @@
     text-transform: capitalize;
     position: relative;
 }
-.navbar_link_flex li a.active{
-    color: rgb(255, 191, 71);
-}
 .navbar_link_flex li a::after{
     position: absolute;
     content: "";
