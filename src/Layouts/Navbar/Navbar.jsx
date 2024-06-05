@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link, NavLink } from 'react-router-dom'
-import profilelogo from '../../images/profilelogo.png'
+import profilelogo from '../../images/profile.jpg'
 import Nanohead from '../../Utilities/Nanohead/Nanohead'
 
 const Navbar = () => {

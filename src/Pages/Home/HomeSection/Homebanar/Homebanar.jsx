@@ -13,7 +13,7 @@ import tailwindicon from '../../../../images/tailwindicon.png'
 import reduxicon from '../../../../images/reduxlogoimg.svg'
 import muilicon from '../../../../images/muilogo.png'
 import firebaseicon from '../../../../images/firebaseimg.png'
-import image from '../../../../images/profileamazon.jpg'
+import image from '../../../../images/profile.jpg'
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 import { Link } from 'react-router-dom'
