@@ -47,7 +47,7 @@ let arraypro = [
         id : 5,
         projectname : "Clinic",
         img :clinic,
-        pera : "An online chatting application is an application that allows you to have a conversation outside of your browser. It allows you to chat in real time, it can also have a file sharing option, as well as a video chat option.",
+        pera : "Welcome to Clinic , your trusted healthcare provider offering a wide range of medical services to meet your health needs. Our clinic is dedicated to providing high-quality, compassionate care in a comfortable and modern environment.",
         btn : "Live Link",
         link : "https://keen-pika-e61b86.netlify.app"
     },
