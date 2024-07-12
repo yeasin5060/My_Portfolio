@@ -51,9 +51,6 @@ const Navbar = () => {
                             <li>
                                 <NavLink onClick={hendleSkill}>skills</NavLink>
                             </li>
-                            <li>
-                                <NavLink onClick={hendleWork}>Work Experience</NavLink>
-                            </li>
                             <div className='contact_me_btn_box'>
                                 <NavLink className="contact_me" onClick={handleContact} >Contact Me</NavLink>
                             </div>

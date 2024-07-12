@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import ecommerce from '../../../../images/ecommerce.png'
 import reatestate from '../../../../images/realestate.png'
 import management from '../../../../images/management.png'
+import clinic from '../../../../images/clinic.png'
 import chat from '../../../../images/chat.png'
 
 let arraypro = [
@@ -42,6 +43,14 @@ let arraypro = [
         btn : "Live Link",
         link : "https://brilliant-meerkat-cb4f6a.netlify.app"
     },
+    {
+        id : 5,
+        projectname : "Clinic",
+        img :clinic,
+        pera : "An online chatting application is an application that allows you to have a conversation outside of your browser. It allows you to chat in real time, it can also have a file sharing option, as well as a video chat option.",
+        btn : "Live Link",
+        link : "https://keen-pika-e61b86.netlify.app"
+    },
 ]
 
 const Homeproject = () => {
@@ -52,8 +61,8 @@ const Homeproject = () => {
                 <Subhead text="My Project" style="home_project_wrapper_heading"/>
                 <div className='home_project_wrapper_flex'>
                     {
-                        arraypro.map((item,index)=>(
-                            <div key={index} className='home_project_wrapper_contant_image_box'>
+                        arraypro.map((item)=>(
+                            <div key={item.id} className='home_project_wrapper_contant_image_box'>
                                 <div className='home_project_wrapper_contant_box'>
                                     <Minihead text={item.projectname} style="home_project_wrapper_contant_heading"/>
                                 </div>
