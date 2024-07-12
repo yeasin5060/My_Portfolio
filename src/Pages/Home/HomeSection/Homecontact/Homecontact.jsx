@@ -30,7 +30,7 @@ const Homecontact = () => {
                     </div>
                     <div className='homecontact_wrapper_email_box'>
                         <Nanohead text="Mail" style="homecontact_wrapper_email"/>
-                        <Link to="mail" className='homecontact_wrapper_email_name'>yasin.munshi9860@gmail.com</Link>
+                        <Link to="mail" className='homecontact_wrapper_email_name'>yeasin.dev01@gmail.com</Link>
                     </div>
                 </div>
             </div>

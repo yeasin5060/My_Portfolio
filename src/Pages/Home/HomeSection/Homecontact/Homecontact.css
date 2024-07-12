@@ -113,7 +113,6 @@
     font-weight: 600;
     color:#161414e7;
     cursor: pointer;
-    text-transform: capitalize;
     transition: all linear 0.3s;
 }
 .homecontact_wrapper_email_name:hover{
